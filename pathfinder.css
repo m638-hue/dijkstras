@@ -1,0 +1,8 @@
+@keyframes toBlue{
+    from{
+        background-color: #bd354e;
+    }
+    to{
+        background-color: blue;
+    }
+}
