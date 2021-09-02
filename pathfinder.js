@@ -4,8 +4,8 @@ let cols = 50;
 let id = 0;
 let container = document.createElement("div");
 container.style.display = "grid";
-container.style.gridTemplateColumns = `repeat(${rows}, 50px)`;
-container.style.gridTemplateRows = `repeat(${cols}, 50px)`;
+container.style.gridTemplateColumns = `repeat(${rows}, 10px)`;
+container.style.gridTemplateRows = `repeat(${cols}, 10px)`;
 document.body.appendChild(container);
 document.body.style.backgroundColor = "grey"
 
